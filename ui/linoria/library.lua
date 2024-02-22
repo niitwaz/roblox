@@ -3633,4 +3633,5 @@ Players.PlayerAdded:Connect(OnPlayerChange);
 Players.PlayerRemoving:Connect(OnPlayerChange);
 
 getgenv().Library = Library
+getgenv().niit = true
 return Library
